@@ -1,6 +1,6 @@
 # Moodfit
 
-✨ Inspiration
+##✨ Inspiration
 Mental health issues are a serious concern, with an estimated 1 in 4 people in the world affected by mental or neurological disorders at some point in their lives (World Health Organization). Additionally, limited social support and difficulty in tracking and monitoring mental health progress can make it even harder for individuals to manage their mental health.
 🧐 What is MoodFit?
 MoodFit is a comprehensive mobile application that offers a variety of tools and resources, as well as social support through communities, to help users improve their mental health and well-being. The app features include:
