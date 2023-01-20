@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/scale_24"
+        android:title="Tools" />
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/users_alt_24"
+        android:title="Community" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/user_24"
+        android:title="My Profile" />
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".JourneyActivity">
+
+    <TextView
+        android:id="@+id/T1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Emotion Tracker"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/T1Desc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="60dp"
+        android:text="Upload a picture and let Echo AI analyze your child's mental state. Those snapshots will be fed into our Deep Learning model, which will label them with tags: Attentive, Unattentive, or Confused."/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/upload_button"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/button_gradient_background"
+        android:text="Upload Picture"
+        android:textColor="@color/white"/>
+
+    <FrameLayout
+        android:id="@+id/uploaded_picture_frame"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@android:color/white"
+        android:layout_margin="20dp">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="20dp">
+    <ImageView
+        android:layout_gravity="bottom"
+        android:id="@+id/uploaded_picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+</androidx.cardview.widget.CardView>
+
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/echo_ai_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:text="Echo AI Thinks You Are Happy!"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>

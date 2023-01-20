@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titles">titles
+
+        <item>Community</item>
+        <item>Chat With AI</item>
+        <item>Chat with Professionals</item>
+    </string-array>
+</resources>
